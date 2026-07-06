@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+    
+
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.logo-text{
+    color: #FD6E0A;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content:space-between;
+    gap: 30px;
+    list-style: none ;  
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+
+}
+ /* common btn */
+.common-btn{
+    background-color: #FD6E0A;
+    padding: 6px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color:wheat;
+    border-style: none;
+    cursor: pointer;
+
+
+}
+/* left 2nd btn */
+.hero-left-2nd-btn{
+    background-color:#fff8f3;
+    padding: 6px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fd6e0a;
+    border-style: 1px solid #FD6E0A;
+    cursor: pointer;
+
+
+}
+/* hero section */
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    
+
+
+}
+.hero-parent-root{
+    background-color: #fff8f3;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero-left h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    
+}
+.hero-left-p1{
+    font-size: 20px;
+    font-weight: 177px;
+    
+}
+/* about section */
+.about-parent{
+    background-color: #fff8f3;
+    padding: 80px;
+    margin: 70px auto;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.about-parent p{
+    margin: 10px 0;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.what-i-do-box-parent{
+    margin-top:20px;
+    display: flex ;
+    justify-content:space-between;
+    gap: 8px;
+}
